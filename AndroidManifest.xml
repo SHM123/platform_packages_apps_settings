@@ -1476,6 +1476,12 @@
 
         <!-- CyanogenMod activities End -->
 
+        <activity android:name=".cyanogenmod.SystemSettings" />
+
+        <activity android:name=".cyanogenmod.PowerWidget" />
+
+        <!-- CyanogenMod activities End -->
+
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="true"
