@@ -1472,9 +1472,7 @@
 
         <activity android:name=".cyanogenmod.PowerMenu" />
 
-        <activity android:name=".cyanogenmod.SystemSettings" />
-
-        <!-- CyanogenMod activities End -->
+        <activity android:name=".cyanogenmod.QuickSettings" />
 
         <activity android:name=".cyanogenmod.SystemSettings" />
 
