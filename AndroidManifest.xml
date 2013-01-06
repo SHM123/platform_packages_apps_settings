@@ -1468,6 +1468,12 @@
 
         <activity android:name=".notificationlight.BatteryLightSettings" />
 
+        <!-- CyanogenMod activities Start -->
+
+        <activity android:name=".cyanogenmod.SystemSettings" />
+
+        <!-- CyanogenMod activities End -->
+
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="true"

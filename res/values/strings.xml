@@ -4538,5 +4538,9 @@
     <string name="silent_mode_title">Silent mode</string>
     <string name="volume_ring_only_description">Ringtone</string>
 
+    <!-- System Interface settings  -->
+    <string name="system_settings_title">System</string>
+    <string name="system_interface_title">System interface</string>
+
     <!-- **** CYANOGENMOD ADDITIONS END **** -->
 </resources>
