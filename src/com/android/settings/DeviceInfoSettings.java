@@ -63,7 +63,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment {
     private static final String KEY_UPDATE_SETTING = "additional_system_update_settings";
     private static final String KEY_EQUIPMENT_ID = "fcc_equipment_id";
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
-    private static final String KEY_MOD_VERSION = "rom_version";
+    private static final String KEY_ROM_VERSION = "rom_version";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
