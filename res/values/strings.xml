@@ -1869,6 +1869,9 @@
     <!-- About phone screen,  setting option name-->
     <string name="build_number">Build number</string>
     <!-- About phone screen,  setting option name-->
+    <string name="rom_version">ROM version</string>
+    <string name="rom_version_default">Purity Unknown</string>
+    <!-- About phone screen,  setting option name-->
     <string name="selinux_status">SELinux status</string>
 
     <!-- About phone screen, show when a value of some status item is unavailable. -->
@@ -4396,8 +4399,6 @@
 
     <!-- CYANOGENMOD EDITS START -->
 
-    <string name="ok">OK</string>
-
     <!-- Quiet hours -->
     <string name="quiet_hours_title">Quiet hours</string>
     <string name="quiet_hours_summary">Configure the hours the device should be quiet</string>
@@ -4513,32 +4514,9 @@
     <!-- Sound settings screen -->
     <string name="volume_overlay_title">Volume panel style</string>
     <string name="silent_mode_title">Silent mode</string>
+    <string name="volume_ring_only_description">Ringtone</string>
     <string name="volbtn_music_controls_title">Volume rocker music controls</string>
     <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
-    <string name="volume_ring_only_description">Ringtone</string>
-
-    <string name="increasing_ring_title">Ascending ringtone</string>
-    <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->
-    <string name="checkbox_increasing_ring">Enable</string>
-    <!-- Sound settings screen, the title of the volume bar to adjust the minimum increasing ring volume -->
-    <string name="increasing_ring_min_volume_title">Ringing start volume</string>
-    <string name="increasing_ring_volume_notice">Notice:\nAs the start volume is set higher than the ringer volume, the ring tone will be played using the ringer volume.</string>
-    <string name="increasing_ring_interval_title">Increase interval</string>
-    <string name="increasing_ring_interval_eachring">On each ring</string>
-    <string name="increasing_ring_interval_half_second">0.5 seconds</string>
-    <string name="increasing_ring_interval_1second">1 second</string>
-    <string name="increasing_ring_interval_2seconds">2 seconds</string>
-    <string name="increasing_ring_interval_3seconds">3 seconds</string>
-    <string name="increasing_ring_interval_5seconds">5 seconds</string>
-    <string name="increasing_ring_interval_10seconds">10 seconds</string>
-
-    <string name="link_volume_ringtones">Link ringtone &amp; notifications volumes</string>
-    <string name="link_volume_mutes">Silent mode affects notifications</string>
-
-    <!-- Sound settings screen -->
-    <string name="volume_overlay_title">Volume panel style</string>
-    <string name="silent_mode_title">Silent mode</string>
-    <string name="volume_ring_only_description">Ringtone</string>
 
     <!-- Themes settings  -->
     <string name="themes_settings_title">Themes</string>

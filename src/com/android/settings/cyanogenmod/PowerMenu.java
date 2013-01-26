@@ -31,14 +31,12 @@ public class PowerMenu extends SettingsPreferenceFragment {
     private static final String KEY_REBOOT = "power_menu_reboot";
     private static final String KEY_SCREENSHOT = "power_menu_screenshot";
     private static final String KEY_EXPANDED_DESKTOP = "power_menu_expanded_desktop";
-    private static final String KEY_PROFILES = "power_menu_profiles";
     private static final String KEY_AIRPLANE = "power_menu_airplane";
     private static final String KEY_SILENT = "power_menu_silent";
 
     private CheckBoxPreference mRebootPref;
     private CheckBoxPreference mScreenshotPref;
     private CheckBoxPreference mExpandedDesktopPref;
-    private CheckBoxPreference mProfilesPref;
     private CheckBoxPreference mAirplanePref;
     private CheckBoxPreference mSilentPref;
 
@@ -68,15 +66,6 @@ public class PowerMenu extends SettingsPreferenceFragment {
                 Settings.System.POWER_MENU_EXPANDED_DESKTOP_ENABLED, 0) == 1));
         }
 
-        mProfilesPref = (CheckBoxPreference) findPreference(KEY_PROFILES);
-        mProfilesPref.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.POWER_MENU_PROFILES_ENABLED, 1) == 1));
-
-        // Only enable if System Profiles are also enabled
-        boolean enabled = Settings.System.getInt(getContentResolver(),
-                Settings.System.SYSTEM_PROFILES_ENABLED, 1) == 1;
-        mProfilesPref.setEnabled(enabled);
-
         mAirplanePref = (CheckBoxPreference) findPreference(KEY_AIRPLANE);
         mAirplanePref.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.POWER_MENU_AIRPLANE_ENABLED, 1) == 1));
@@ -105,11 +94,6 @@ public class PowerMenu extends SettingsPreferenceFragment {
             value = mRebootPref.isChecked();
             Settings.System.putInt(getContentResolver(),
                     Settings.System.POWER_MENU_REBOOT_ENABLED,
-                    value ? 1 : 0);
-        } else if (preference == mProfilesPref) {
-            value = mProfilesPref.isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.POWER_MENU_PROFILES_ENABLED,
                     value ? 1 : 0);
        } else if (preference == mAirplanePref) {
             value = mAirplanePref.isChecked();
