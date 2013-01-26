@@ -1872,7 +1872,10 @@
     <string name="build_number">Build number</string>
     <!-- About phone screen,  setting option name-->
     <string name="rom_version">ROM version</string>
-    <string name="rom_version_default">SHM123 Unknown</string>
+    <string name="rom_version_default">Purity Unknown</string>
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2012-01-01-0000</string>
     <!-- About phone screen,  setting option name-->
     <string name="selinux_status">SELinux status</string>
 
@@ -4399,7 +4402,7 @@
     <!-- Cell Broadcast settings description [CHAR LIMIT=100] -->
     <string name="cell_broadcast_settings_summary">Select the types of emergency alerts to display.</string>
 
-    <!-- **** SHM123 ADDITIONS START **** -->
+    <!-- **** PURITY ADDITIONS START **** -->
 
     <!-- Themes settings  -->
     <string name="themes_settings_title">Themes</string>
@@ -4407,6 +4410,6 @@
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
 
-    <!-- **** SHM123 ADDITIONS END **** -->
+    <!-- **** PURITY ADDITIONS END **** -->
 
 </resources>
