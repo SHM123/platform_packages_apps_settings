@@ -4696,5 +4696,8 @@
     <string name="tiles_reset_title">Reset</string>
     <string name="tiles_reset_message">Restore the default displayed tiles and layout?</string>
 
+    <!-- Purity Category  -->
+    <string name="purity_category_title">Purity</string>
+
     <!-- **** CYANOGENMOD ADDITIONS END **** -->
 </resources>
