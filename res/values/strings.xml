@@ -4699,5 +4699,10 @@
     <!-- Purity Category  -->
     <string name="purity_category_title">Purity</string>
 
+    <!-- Clock Settings -->
+    <string name="status_bar_clock_title">Clock style</string>
+    <string name="status_bar_am_pm_title">AM/PM style</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+
     <!-- **** CYANOGENMOD ADDITIONS END **** -->
 </resources>
