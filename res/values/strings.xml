@@ -4817,5 +4817,8 @@
     <string name="icon_picker_gallery_title">Gallery</string>
     <string name="icon_picker_pack_title">Icon pack</string>
 
+    <!-- AOKP specific sound settings -->
+    <string name="safe_headset_volume_title">Safe headset volume</string>
+
     <!-- **** CYANOGENMOD ADDITIONS END **** -->
 </resources>
