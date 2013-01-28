@@ -4820,5 +4820,10 @@
     <!-- AOKP specific sound settings -->
     <string name="safe_headset_volume_title">Safe headset volume</string>
 
+    <!-- Lock screen misc. settings -->
+    <string name="lockscreen_battery_status_title">Battery status</string>
+    <string name="lockscreen_battery_status_charging">Only when charging</string>
+    <string name="lockscreen_battery_status_alwayson">Always on</string>
+
     <!-- **** CYANOGENMOD ADDITIONS END **** -->
 </resources>
